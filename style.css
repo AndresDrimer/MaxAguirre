@@ -1,0 +1,53 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/* CONTACTO */
+form{
+  margin-top: 150px;
+  padding: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+/* NOTICIAS */
+#gridNoticias{
+  margin-top: 30px;
+}
+.col{
+  margin-top: 90px;
+}
+
+/* MUSICA */
+
+#reproductor, #parrafoMusica{
+margin-top: 100px;
+width: 80%;
+margin: 100px auto;
+}
+
+.fotoVivo{
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  margin: auto;
+}
+
+#dejarEspacio{
+  margin-bottom: 50px;
+}
+
+/* TRABAJOS */
+#headerInicialWorks{
+  margin-top: 100px;
+  padding: 20px;
+}
+#headerSecWorks{
+  padding: 20px;
+}
