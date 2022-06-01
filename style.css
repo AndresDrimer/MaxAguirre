@@ -23,6 +23,9 @@ form{
 .col{
   margin-top: 90px;
 }
+.imgNoticias{
+  width: 400px;
+}
 
 /* MUSICA */
 
@@ -33,8 +36,8 @@ margin: 100px auto;
 }
 
 .fotoVivo{
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   margin: auto;
 }
