@@ -24,31 +24,8 @@ form{
   margin-top: 90px;
 }
 .imgNoticias{
-  width: 400px;  
-  box-shadow: 2px 2px 30px 2px grey;
+  width: 400px;
 }
-
-.cadaNota{
-  max-width: 300px;
-}
-
-.nuevoLibro{
-  font-size: 0.7em;
-  color: rgb(141, 141, 141);  
-}
-
-h5{
-  padding-top: 10px;
-  padding-bottom: 5px;
-  
-  height: auto;
-  max-width: 400px;
-  word-wrap: break-word;
-  
-}
-
-
-
 
 /* MUSICA */
 
@@ -59,8 +36,8 @@ margin: 100px auto;
 }
 
 .fotoVivo{
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   margin: auto;
 }
@@ -78,4 +55,37 @@ margin: 100px auto;
   padding: 20px;
 }
 
+
+/* RESPONSIVE */
+
+/* celular */
+@media screen and (max-width: 768px) {}
  
+ 
+/* tablet */
+@media screen and (max-width: 1440px) and (min-width: 768px){
+   /* trabajos */
+   .carousel-item{
+    width: 50vw;
+    margin-left: 25%;
+  }
+  .carrouselesTrabajos{
+    text-align: center;
+    
+    
+  }
+
+}  
+  
+/* pc escritorio */
+@media screen and (min-width: 1440px){
+  /* trabajos */
+  .carousel-item{
+    width: 50vw;
+    margin-left: 25%;
+  }
+  .carrouselesTrabajos{
+    text-align: center; 
+   
+  }
+
