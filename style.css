@@ -17,19 +17,23 @@ form{
 }
 
 /* NOTICIAS */
+
 #gridNoticias{
-  margin-top: 30px;
+  margin-top: 30px;  
 }
+
 .col{
   margin-top: 90px;
 }
+
 .imgNoticias{
-  width: 400px;  
+  width: 350px;  
   box-shadow: 2px 2px 30px 2px grey;
 }
 
 .cadaNota{
   max-width: 300px;
+  
 }
 
 .nuevoLibro{
@@ -42,7 +46,7 @@ h5{
   padding-bottom: 5px;
   
   height: auto;
-  max-width: 400px;
+  max-width: 350px;
   word-wrap: break-word;
   
 }
@@ -59,8 +63,8 @@ margin: 100px auto;
 }
 
 .fotoVivo{
-  width: 500px;
-  height: 600px;
+  width: 350px;
+  height: 400px;
   object-fit: cover;
   margin: auto;
 }
@@ -72,10 +76,43 @@ margin: 100px auto;
 /* TRABAJOS */
 #headerInicialWorks{
   margin-top: 100px;
-  padding: 20px;
-}
-#headerSecWorks{
-  padding: 20px;
+  padding: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.imgTrabajos{
+  width: 350px;
+} 
+.tituloTrabajos{
+  text-align: center; 
+   
+}
+#tituloIlustracion{
+  padding-top: 100px;
+}
+
+/* RESPONSIVE */
+
+/* celular */
+ @media screen and (max-width: 768px) {}
  
+  
+/* tablet */
+@media screen and (max-width: 1440px) and (min-width: 768px){
+  /* trabajos */
+
+   
+   
+ }
+
+ 
+ 
+/* pc escritorio */
+@media screen and (min-width: 1440px){
+ /* trabajos */
+
+  
+ }
+
