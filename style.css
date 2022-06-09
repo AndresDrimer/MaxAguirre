@@ -1,3 +1,4 @@
+/* CARROUSEL */
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -5,8 +6,18 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    
   }
+
+  #bodyIndex{
+    /* background-color: black; */
+  }
+#maxTintin {
+  background-size: contain;
+}
+  /* .imgCarrouselGde{
+    background-size: 100%;
+  } */
 
 /* CONTACTO */
 form{
