@@ -2,19 +2,21 @@
 .carousel-item {
     height: 100vh;
     min-height: 350px;
+    margin: auto auto;
     background: no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
   }
-
-  #bodyIndex{
-    /* background-color: black; */
-  }
-#maxTintin {
-  background-size: contain;
+#carr1{
+  object-fit:none;
+  
 }
+#carr2{
+  object-fit: contain;
+}
+
+ 
   /* .imgCarrouselGde{
     background-size: 100%;
   } */
@@ -107,23 +109,42 @@ margin: 100px auto;
 /* RESPONSIVE */
 
 /* celular */
- @media screen and (max-width: 768px) {}
- 
+ @media screen and (max-width: 768px) {
+ }
+
   
 /* tablet */
 @media screen and (max-width: 1440px) and (min-width: 768px){
-  /* trabajos */
-
-   
-   
- }
+  .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    margin: auto auto;
+    background: no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain; 
+   }
+  
+  .carousel-inner{
+    background-color: #506d8b;
+  }
+}
 
  
  
 /* pc escritorio */
 @media screen and (min-width: 1440px){
  /* trabajos */
-
-  
+ .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  margin: auto auto;
+  background: no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain; 
  }
 
+.carousel-inner{
+  background-color: #506d8b;
+}
