@@ -4,6 +4,7 @@
     min-height: 350px;
     margin: auto auto;
     background: no-repeat center center;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -110,6 +111,18 @@ margin: 100px auto;
 
 /* celular */
  @media screen and (max-width: 768px) {
+  .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    margin: auto auto;
+    background: no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain; 
+   }
+   #bodyIndex{
+    background-color: #506d8b;
+   }
  }
 
   
