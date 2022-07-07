@@ -76,6 +76,15 @@ width: 60%;
 margin: 100px auto;
 }
 
+#videos{
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+
 .fotoVivo{
   width: 350px;
   height: 400px;
@@ -155,10 +164,10 @@ margin: 100px auto;
     background-color: #506d8b;
   }
   #carr2{
-    top:50px;
+    top:60px;
   }
   #carr1{
-    top:30px;
+    top:50px;
   }
 }
 
@@ -181,7 +190,7 @@ margin: 100px auto;
   background-color: #506d8b;
 }
 #carr2{
-  top:70px;
+  top:80px;
 }
 #carr1{
   top:30px;
