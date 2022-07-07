@@ -52,7 +52,7 @@ form{
 
 .nuevoLibro{
   font-size: 0.7em;
-  color: rgb(141, 141, 141);  
+  color: #506d8b;  
 }
 
 h5{
@@ -123,6 +123,9 @@ margin: 100px auto;
    #bodyIndex{
     background-color: #506d8b;
    }
+   #carr3{
+    right:-100px;
+   }
  }
 
   
@@ -140,6 +143,12 @@ margin: 100px auto;
   
   .carousel-inner{
     background-color: #506d8b;
+  }
+  #carr2{
+    top:50px;
+  }
+  #carr1{
+    top:30px;
   }
 }
 
@@ -160,4 +169,10 @@ margin: 100px auto;
 
 .carousel-inner{
   background-color: #506d8b;
+}
+#carr2{
+  top:70px;
+}
+#carr1{
+  top:30px;
 }
