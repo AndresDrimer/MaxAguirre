@@ -13,7 +13,7 @@
 <body>
     
 
-
+<!-- NAV HEADER -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="150px"></a>
@@ -47,42 +47,46 @@
       </div>
     </div>
   </nav>
-  
-  
+ <!-- FIN NAV HEADER  -->
+<main id="mainContactoFondo">
+    <!-- FORM -->
+    <br><br>
+      <form action="https://formspree.io/f/xbjwwkrv" method="POST" target="_blank">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre completo" name="nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="formGroupExampleInput" placeholder="Email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ciudad" name="ciudad">
+        </div>
+        <br>
+        <div class="form-check">
+            <input type="hidden" name="nueva_suscripcion" value="no">
+            <input class="form-check-input" type="checkbox" value="sí" id="defaultCheck1" name="nueva_suscripcion">
+            <label class="form-check-label" for="defaultCheck1">
+              Deseo suscribirme para recibir novedades
+            </label>
+        </div>
+        <br>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Ingrese comentarios" name="comentario"></textarea>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
 
-<br><br>
-  <form action="https://formspree.io/f/xbjwwkrv" method="POST" target="_blank">
-    <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre completo" name="nombre" required>
-    </div>
-    <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">E-mail</label>
-        <input type="email" class="form-control" id="formGroupExampleInput" placeholder="Email" name="email" required>
-    </div>
-    <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Ciudad</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ciudad" name="ciudad">
-    </div>
-    <br>
-    <div class="form-check">
-        <input type="hidden" name="nueva_suscripcion" value="no">
-        <input class="form-check-input" type="checkbox" value="sí" id="defaultCheck1" name="nueva_suscripcion">
-        <label class="form-check-label" for="defaultCheck1">
-          Deseo suscribirme para recibir novedades
-        </label>
-    </div>
-    <br>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Ingrese comentarios" name="comentario"></textarea>
-    </div>
-    <div class="col-12">
-        <button class="btn btn-primary" type="submit">Enviar</button>
-    </div>
+      </form>
+    <!-- FIN FORM -->
+</main>
 
-  </form>
 
+<!-- FOOTER -->
   <footer class="text-center text-white" style="background-color: #e0dada;">
     <!-- Grid container -->
     <footer class="text-center text-white" style="background-color: #f1f1f1;">

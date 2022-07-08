@@ -1,3 +1,9 @@
+:root{
+  --azul: #506d8b;
+}
+
+
+
 /* CARROUSEL */
 .carousel-item {
     height: 100vh;
@@ -17,10 +23,6 @@
   object-fit: contain;
 }
 
- 
-  /* .imgCarrouselGde{
-    background-size: 100%;
-  } */
 
 /* CONTACTO */
 form{
@@ -28,8 +30,14 @@ form{
   padding: 50px;
   width: 70%;
   margin: auto;
+  max-width: 750px;
+  color: white;
 }
 
+#mainContactoFondo{
+  background-color: var(--azul);
+  
+}
 /* NOTICIAS */
 
 #gridNoticias{
@@ -39,6 +47,7 @@ form{
 .col{
   margin-top: 90px;
 }
+
 
 .imgNoticias{
   width: 350px;  
@@ -70,26 +79,43 @@ h5{
 
 /* MUSICA */
 
-#reproductor, #parrafoMusica{
-margin-top: 100px;
-width: 60%;
-margin: 100px auto;
+#contenedorMusica{
+  
+  background-color: white;
+  width: 65%;
+  margin: 110px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  box-sizing: border-box;
 }
 
-#videos{
+#contenedorMusica section{
+  margin-bottom: 100px;
+}
+#reproductor, #parrafoMusica, #videos{
+margin: 20px;
+max-width: 450px;
+min-width: 340px;
+}
+
+#videos, .fotosDeDiscos, #fotosVivo{
   display: flex;
-  direction: row;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  flex:1;
 }
+ .fotoDisco{
+  max-width: 450px;
+ }
 
-
-.fotoVivo{
-  width: 350px;
-  height: 400px;
-  object-fit: cover;
-  margin: auto;
+.fotoMusica{
+  max-width: 450px;
+  
+  
 }
 
 #dejarEspacio{
@@ -97,31 +123,35 @@ margin: 100px auto;
 }
 
 /* TRABAJOS */
-#headerInicialWorks{
-  margin-top: 100px;
-  padding: -50px;
-  display: flex;
+
+
+#contTrabajos{
+  display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
 }
-
-.imgTrabajos{
-  width: 350px;
-} 
-.tituloTrabajos{
-  text-align: center; 
-   
-}
-#tituloIlustracion{
-  padding-top: 100px;
+.imagenTrabajos{
+  max-width: 100vw;
+  padding:50px;
 }
 
 /* BIO */
 #bio{
   max-width: 700px;
   text-align: left;
-  margin: 80px auto 0 auto;
+  margin: 0 auto;
   padding: 30px;
+}
+#bioTotal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#fotoMax{
+  margin-top: 100px;
 }
 
 /* RESPONSIVE */
@@ -146,6 +176,7 @@ margin: 100px auto;
    #bio{
     max-width: 450px;
    }
+
   }
  
 /* tablet */
@@ -169,6 +200,7 @@ margin: 100px auto;
   #carr1{
     top:50px;
   }
+  
 }
 
  
@@ -194,4 +226,5 @@ margin: 100px auto;
 }
 #carr1{
   top:30px;
+}
 }
