@@ -16,8 +16,7 @@
     -o-background-size: cover;
   }
 #carr1{
-  object-fit:none;
-  
+  object-fit:none;  
 }
 #carr2{
   object-fit: contain;
@@ -33,32 +32,44 @@ form{
   max-width: 750px;
   color: white;
 }
-
 #mainContactoFondo{
-  background-color: var(--azul);
+  background-color: var(--azul); 
+}
+#gatita{
+ 
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 15em;
   
+  
+
 }
 /* NOTICIAS */
+.cajitaCard{
+  background-color: white;
+  width: 350px;
+  padding: 0 1em;
+  
+}
+#fondoNoticias{
+  background-color: var(--azul);
+}
 
 #gridNoticias{
   margin-top: 30px;  
 }
-
 .col{
   margin-top: 90px;
+  display: flex;
+  flex-direction: column; 
 }
-
-
 .imgNoticias{
   width: 350px;  
   box-shadow: 2px 2px 30px 2px grey;
 }
-
 .cadaNota{
   max-width: 300px;
-  
 }
-
 .nuevoLibro{
   font-size: 0.7em;
   color: #506d8b;  
@@ -70,61 +81,58 @@ h5{
   
   height: auto;
   max-width: 350px;
-  word-wrap: break-word;
-  
+  word-wrap: break-word; 
 }
 
-
-
-
 /* MUSICA */
-
-#contenedorMusica{
-  
+#mainMusica{
+  background-color: var(--azul);
+  padding-top: 8em;
+  box-sizing: border-box;
+}
+#contenedorMusica {
   background-color: white;
   width: 65%;
-  margin: 110px auto 0 auto;
+  margin: auto auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;  
   box-sizing: border-box;
 }
-
-#contenedorMusica section{
-  margin-bottom: 100px;
+#parrafoMusica {
+  padding: 1.5em 3em;
+  max-width: 55em;
 }
-#reproductor, #parrafoMusica, #videos{
-margin: 20px;
-max-width: 450px;
-min-width: 340px;
+.fotoDisco{
+  max-width: 300px;
+  padding-top: 1.5em;
 }
-
-#videos, .fotosDeDiscos, #fotosVivo{
+#videos{
+  padding: 1.5em 0.5em;
+  max-width: 65em;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
   flex-wrap: wrap;
-  flex:1;
+  justify-content:center ;
 }
- .fotoDisco{
-  max-width: 450px;
- }
-
+#video1, #video2 {
+  padding: 1.5em 0.5em;
+}
+.fotosVivo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .fotoMusica{
-  max-width: 450px;
-  
-  
+  max-width: 18em;
 }
 
-#dejarEspacio{
-  margin-bottom: 50px;
-}
 
 /* TRABAJOS */
-
-
+#fondoTrabajos {
+  background-color: var(--azul);
+}
 #contTrabajos{
   display:flex;
   flex-direction: column;
@@ -138,6 +146,18 @@ min-width: 340px;
 }
 
 /* BIO */
+
+#fondoBio{
+  background-color: var(--azul);
+  padding-top:8em;
+}
+#cajitaBlancaBio{
+  background-color: white;
+  margin: 0 20em;
+  
+ 
+}
+
 #bio{
   max-width: 700px;
   text-align: left;
@@ -155,7 +175,6 @@ min-width: 340px;
 }
 
 /* RESPONSIVE */
-
 /* celular */
  @media screen and (max-width: 768px) {
   .carousel-item {
@@ -176,7 +195,9 @@ min-width: 340px;
    #bio{
     max-width: 450px;
    }
-
+  .col{
+    align-items: center;
+  } 
   }
  
 /* tablet */
@@ -199,15 +220,14 @@ min-width: 340px;
   }
   #carr1{
     top:50px;
-  }
-  
+  } 
+  .col{
+    align-items: center;
+  } 
 }
-
- 
  
 /* pc escritorio */
 @media screen and (min-width: 1440px){
- /* trabajos */
  .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -216,8 +236,7 @@ min-width: 340px;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain; 
- }
-
+}
 .carousel-inner{
   background-color: #506d8b;
 }
@@ -227,4 +246,8 @@ min-width: 340px;
 #carr1{
   top:30px;
 }
+.fotoMusica, #video1, #video2{
+  max-width: 25em;  
+}
+
 }
