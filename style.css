@@ -6,7 +6,10 @@
   box-sizing: border-box;
 }
 
-
+/* NAV HEADER */
+#selected{
+  font-weight: bolder;
+}
 
 /* CARROUSEL */
 .carousel-item {
@@ -43,10 +46,6 @@ form{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   width: 15em;
-  
-  
-  
-
 }
 /* NOTICIAS */
 .cajitaCard{
@@ -90,8 +89,8 @@ h5{
 
 /* MUSICA */
 #mainMusica{
-  background-color: var(--azul);
-  padding-top: 8em;
+  /* background-color: var(--azul); */
+  padding-top: 6em;
   box-sizing: border-box;
 }
 #contenedorMusica {
@@ -157,8 +156,7 @@ h5{
 }
 #cajitaBlancaBio{
   background-color: white;
-  margin: 0 20%;
-  
+  margin: 0 20%;  
 }
 
 #bio{
@@ -211,7 +209,13 @@ h5{
 #fotoMaxEscritorio{
   width:150%;
 }
-  }
+.imagenTrabajos{
+  margin-bottom: -5em;
+}
+#ultimoTrabajo{
+  margin: 1.5em;
+}
+}
  
 /* tablet */
 @media screen and (max-width: 1440px) and (min-width: 768px){
