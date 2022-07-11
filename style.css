@@ -2,6 +2,10 @@
   --azul: #506d8b;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 
 
 /* CARROUSEL */
@@ -36,10 +40,10 @@ form{
   background-color: var(--azul); 
 }
 #gatita{
- 
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   width: 15em;
+  
   
   
 
@@ -153,9 +157,8 @@ h5{
 }
 #cajitaBlancaBio{
   background-color: white;
-  margin: 0 20em;
+  margin: 0 20%;
   
- 
 }
 
 #bio{
@@ -172,6 +175,10 @@ h5{
 }
 #fotoMax{
   margin-top: 100px;
+}
+#contFotoEscritorio{
+  display: flex;
+  justify-content: center;
 }
 
 /* RESPONSIVE */
@@ -198,6 +205,12 @@ h5{
   .col{
     align-items: center;
   } 
+ #fotoMax{
+  width: 100%;
+}
+#fotoMaxEscritorio{
+  width:150%;
+}
   }
  
 /* tablet */
