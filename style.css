@@ -80,8 +80,7 @@ form{
 
 h5{
   padding-top: 10px;
-  padding-bottom: 5px;
-  
+  padding-bottom: 5px;  
   height: auto;
   max-width: 350px;
   word-wrap: break-word; 
@@ -89,7 +88,6 @@ h5{
 
 /* MUSICA */
 #mainMusica{
-  /* background-color: var(--azul); */
   padding-top: 6em;
   box-sizing: border-box;
 }
@@ -156,7 +154,7 @@ h5{
 }
 #cajitaBlancaBio{
   background-color: white;
-  margin: 0 20%;  
+  margin: 0 7%; 
 }
 
 #bio{
