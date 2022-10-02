@@ -90,11 +90,12 @@ h5{
 #mainMusica{
   padding-top: 6em;
   box-sizing: border-box;
+  background-color: var(--azul);
 }
 #contenedorMusica {
   background-color: white;
-  width: 75%;
-  margin: auto auto;
+  width: 60%;
+  margin: 30px auto -90px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,10 +142,17 @@ h5{
   align-items: center;
   margin-top: 60px;
 }
+
+#contTrabajos :last-child{
+  margin-bottom: 20px;
+}
+
 .imagenTrabajos{
-  max-width: 100vw;
+  margin: 20px auto;
+  max-width: 75vw;
   padding:50px;
 }
+
 
 /* BIO */
 
